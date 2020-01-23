@@ -3,13 +3,19 @@ Tacotron2 based multi-speaker text to speech
 
 ## Reference
 
- 1. Deep voice 2
- 2. NVIDIA tacotron 2 implementatin
+ - Deep voice 2
+ - NVIDIA tacotron 2 implementation
  
 ## Model
 Three places adding speaker embedding layers
+ - text encoder GRU initial state
+ - add speaker code after text encoder RNN
+
+## Data preparation
+```data```:dictionaries for different language
+```dataset```:where put training data and test data
 
 ## Experiments
 ### E1 (Jan-19)
-**location**: 115 **outdir14**  
+**location**: 115 **outdir14**
 **data**: mix indirect and direct speech with one speaker code + 39 female speaker from cusent
