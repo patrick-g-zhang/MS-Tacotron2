@@ -12,7 +12,7 @@ Three places adding speaker embedding layers
  - add speaker code after text encoder RNN
 
 ## Data preparation
-```data```:dictionaries for different language
+```data```:dictionaries for different language  
 ```dataset```:where put training data and test data
 
 ## Experiments
