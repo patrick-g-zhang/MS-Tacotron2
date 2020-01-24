@@ -16,6 +16,9 @@ Three places adding speaker embedding layers
 ```dataset```:where put training data and test data
 
 ## Train step
+```
+    python -m multiproc train.py -o outdir22/ -l logdir
+```
 
 ## Experiments
 ### E1 (Jan-19)
@@ -24,6 +27,11 @@ Three places adding speaker embedding layers
 - mix indirect and direct speech with one speaker code + 39 female speaker from cusent   
 - storytelling sentences share the same speaker id 
 
+### E2 (Jan-24)
+**location**: 114 **outdir15**
+**data**: 
+- mix indirect and direct speech with one speaker code + 39 female speaker from cusent   
+- indirect speech: spk id 69 direct speech: spk id 70
 
 
 ## TO DO LIST
