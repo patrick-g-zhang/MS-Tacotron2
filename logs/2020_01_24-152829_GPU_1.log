@@ -1,0 +1,45 @@
+
+WARNING: The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+If you depend on functionality not listed there, please file an issue.
+
+FP16 Run: True
+Dynamic Loss Scaling: True
+Distributed Run: True
+cuDNN Enabled: True
+cuDNN Benchmark: False
+Initializing Distributed
+Done initializing distributed
+Warm starting model from checkpoint './outdir5/tacotron2_statedict.pt'
+Epoch: 0
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 32768.0
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 16384.0
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 8192.0
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 4096.0
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 2048.0
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 1024.0
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 512.0
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 256.0
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 128.0
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 64.0
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 32.0
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 16.0
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 8.0
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 4.0
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 2.0
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 1.0
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 0.5
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 0.25
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 0.125
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 0.0625
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 0.03125
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 0.015625
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 0.0078125
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 0.00390625
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 0.001953125
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 0.0009765625
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 0.00048828125
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 0.000244140625
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 0.0001220703125

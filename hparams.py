@@ -13,7 +13,7 @@ def create_hparams(hparams_string=None, verbose=False):
         iters_per_checkpoint=500,
         seed=1234,
         dynamic_loss_scaling=True,
-        fp16_run=True,
+        fp16_run=False,
         distributed_run=True,
         dist_backend="nccl",
         dist_url="tcp://localhost:54321",
@@ -26,8 +26,8 @@ def create_hparams(hparams_string=None, verbose=False):
         # Data Parameters             #
         ################################
         load_mel_from_disk=False,
-        training_files='datasets/st_cusent/stcusent_audio_text_train_filelist.txt',
-        validation_files='datasets/st_cusent/stcusent_audio_text_test_filelist.txt',
+        training_files='datasets/st_cusent_2/stcusent_audio_text_train_filelist.txt',
+        validation_files='datasets/st_cusent_2/stcusent_audio_text_val_filelist.txt',
         text_cleaners=['cantonese_cleaners'],
         cmudict_path="data/cmu_dictionary",
 
@@ -47,7 +47,7 @@ def create_hparams(hparams_string=None, verbose=False):
         # Model Parameters             #
         ################################
         n_symbols=len(symbols),
-        n_spks=69 + 1,
+        n_spks=70 + 1,
         spks_embedding_dim=128,
         symbols_embedding_dim=512,
 
