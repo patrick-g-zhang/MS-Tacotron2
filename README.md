@@ -17,7 +17,7 @@ Three places adding speaker embedding layers
 
 ## Train step
 ```
-    python -m multiproc train.py -o outdir22/ -l logdir
+python -m multiproc.py train.py -o outdir15/ -l logdir -c ./outdir5/tacotron2_statedict.pt --warm_start
 ```
 
 ## Experiments
@@ -33,6 +33,7 @@ Three places adding speaker embedding layers
 - mix indirect and direct speech with one speaker code + 39 female speaker from cusent   
 - indirect speech: spk id 69 direct speech: spk id 70
 
-
+## Install
+- apex segmentation error: ```conda install -c psi4 gcc-5```
 ## TO DO LIST
-- tweak input format : replace with dataframe 
+- tweak input format : replace with pandas dataframe instead of filelists

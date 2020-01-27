@@ -10,13 +10,13 @@ def create_hparams(hparams_string=None, verbose=False):
         # Experiment Parameters        #
         ################################
         epochs=500,
-        iters_per_checkpoint=500,
+        iters_per_checkpoint=2000,
         seed=1234,
         dynamic_loss_scaling=True,
-        fp16_run=False,
+        fp16_run=True,
         distributed_run=True,
         dist_backend="nccl",
-        dist_url="tcp://localhost:54321",
+        dist_url="tcp://localhost:54322",
         cudnn_enabled=True,
         cudnn_benchmark=False,
         ignore_layers=['embedding.weight', "decoder.prenet.layers.0.linear_layer.weight",
